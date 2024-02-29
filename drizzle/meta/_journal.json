@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1709165339706,
+      "tag": "0000_right_titanium_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1709165648121,
+      "tag": "0001_bitter_zemo",
+      "breakpoints": true
+    }
+  ]
+}
