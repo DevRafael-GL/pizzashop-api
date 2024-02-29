@@ -15,6 +15,20 @@
       "when": 1709165648121,
       "tag": "0001_bitter_zemo",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1709236881698,
+      "tag": "0002_great_talkback",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1709237010730,
+      "tag": "0003_safe_penance",
+      "breakpoints": true
     }
   ]
 }
