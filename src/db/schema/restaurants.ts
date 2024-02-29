@@ -8,10 +8,10 @@ export const restaurants = pgTable('restaurants', {
     .$defaultFn(() => createId())
     .primaryKey(),
   name: text('name').notNull(),
+  description: text('description'),
   managerId: text('manager_id').references(() => users.id, {
     onDelete: 'set null',
   }),
-  description: text('description').notNull().unique(),
   createdAt: timestamp('created_at').notNull().defaultNow(),
   updatedAt: timestamp('updated_at').notNull().defaultNow(),
 })
